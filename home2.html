@@ -98,25 +98,34 @@
         
         </section>
     <!--Newsletter-->
-    <section class="newsletter">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="content">
-                        <form>
-                            <h2>SUBSCRIBE TO OUR NEWSLETTER</h2>
-                            <div class="input-group">
-                                <input type="email" class="form-control" placeholder="Enter your email">
-                                <span class="input-group-btn">
-                                    <button class="btn" type="submit">Subscribe Now</button>
-                                </span>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+    <div class="container h-100">
+      <div class="row h-100 justify-content-center align-items-center">
+          <div class="col-10 col-md-8 col-lg-6">
+            <div class="my-3 p-3 bg-body rounded shadow-sm">
+              <!-- Form -->
+              <form class="form-example" action="" method="post">
+                  <h4>Join our Community</h4>
+                  <p class="description">Sign up for our newsletter</p>
+                  <!-- Input fields -->
+                  <div class="form-group">
+                      <label for="username">Name</label>
+                      <input type="text" class="form-control name" id="name">
+                  </div>
+                  <div class="form-group">
+                      <label for="password">Email</label>
+                      <input type="password" class="form-control email" id="email">
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Yes, I would like to recieve event emails</label>
+                  </div>
+                  <button type="signup" class="btn btn-primary btn-customized">Sign Up</button>
+              </form>
             </div>
-        </div>
-    </section>
+          </div>
+      </div>
+  </div>
+  
     <!--FOOTER-->
     <footer class="bg-light text-center text-lg-start text-black">
       <!-- Grid container -->
@@ -137,7 +146,8 @@
             <ul class="list-unstyled">
                 <p>Thur: 6:00am - 7:30pm</p>
                 <p>Sat: 9:00 am - 11:00am</p>
-                <p>619 North New Braunfels Ave., San Antonio, TX 78202</p>
+                <p>619 North New Braunfels Ave.</p> 
+                <p>San Antonio, TX. 78202</p>
             </ul>
           </div>
           <!--Grid column-->
