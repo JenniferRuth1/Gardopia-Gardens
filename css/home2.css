@@ -1,0 +1,227 @@
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+  @media (prefers-reduced-motion: no-preference) {
+    :root {
+      scroll-behavior: smooth;
+    }
+  }
+  /*NAV*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header{
+  border-bottom: 1px solid #E2E8F0;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.logo-wrapper img {
+    width: 160px; 
+    margin: .6em 0;
+    display: inline-block;
+  }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  color: black;
+}
+x
+.logo-wrapper img {
+  width: 160px; 
+  margin: .6em 0;
+  display: inline-block;
+}
+.hamburger {
+  display: none;
+}
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+  color:black;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:black;
+}
+.nav-item {
+  margin-left: 5rem;
+  color:black;
+}
+.nav-link{
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #124388;
+}
+.nav-link:hover{
+  color: #000000;
+  font-weight: 500;
+}
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+      position: fixed;
+      left: -100%;
+      top: 5rem;
+      flex-direction: column;
+      background-color: white;
+      width: 100%;
+      border-radius: 10px;
+      text-align: center;
+      transition: 0.3s;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05); 
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+.hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+  .nav-menu.active {
+      left: 0;
+  }
+  .nav-item {
+      margin: 2.5rem 0;
+  }
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+}
+/*--Jumbotron--*/
+.jumbotron-fluid{
+    margin-left: 40px;
+    margin-right: 40px;
+    height:2000px;
+}
+.container{
+    margin-left: 40px;
+    margin-right: 40px;
+    height: 2000px;
+}
+.container-fluid{
+    height:2000px;
+}
+/*--cards--*/
+/*My work*/
+
+.myWork {
+    text-align: center;
+    overflow: hidden;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 100px;
+    font-size: 20px;
+  }
+  .grid-card-wrapper {
+    margin: 0 auto;
+    display: grid;
+    padding: 30px 28px;
+    grid-template-columns: repeat(auto-fill, minmax(100%, 1fr));
+    align-items: stretch;
+  }
+  .grid-card {
+    display: flex;
+    margin: 10px 0px;
+    padding: 25px 25px;
+    transition: transform 0.3s cubic-bezier(0.374, 0.019, 0.035, 1.861);
+    background-color: #abcee2;
+    border-radius: 4px;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.10);
+    width: 100%;
+    height: 460px;
+  }
+  .grid-card:hover{
+    transform: scale(1.03);
+  }
+  .grid-card.purple-card {
+    background-color: #cacaec;
+  }
+  .col-5 {
+      width: 40%;
+      overflow: auto;
+  }
+  .col-7 {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+  }
+  .card-header-text {
+    text-align: center;
+    font-size: 30px;
+  }
+  .SAHS-p{
+    text-align: center;
+    justify-content: flex-end;
+  }
+  #jumbotron-card{
+    border-radius: 10px;
+  }
+  #jumbotron-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0 3rem;
+    color: rgb(16, 0, 104)!important;
+  }
+  
+  /*newsletter*/
+  .newsletter {
+    padding: 80px 0;
+    background: #f2f2f2;
+    }
+    
+    .newsletter .content {
+    max-width: 650px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    z-index: 2; }
+    .newsletter .content h2 {
+    color: #243c4f;
+    margin-bottom: 40px; }
+    .newsletter .content .form-control {
+    height: 50px;
+    border-color: #ffffff;
+    border-radius:0;
+    }
+    .newsletter .content.form-control:focus {
+    box-shadow: none;
+    border: 2px solid #243c4f;
+    }
+    .newsletter .content .btn {
+    min-height: 50px; 
+    border-radius:0;
+    background: #243c4f;
+    color: #fff;
+    font-weight:600;
+    }
