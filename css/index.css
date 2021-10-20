@@ -92,3 +92,7 @@ body {
 #signup {
   padding-bottom: 30%;
 }
+.mapoutercontainer {
+  justify-content: center; 
+  align-items: center;
+}
