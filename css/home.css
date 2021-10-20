@@ -36,7 +36,6 @@
     float: none;
     width: 100%;
   }
-  
   .nav-tabs > li > a {
     border-right: 6px solid #d2d3d4;
     padding: 0;
@@ -51,25 +50,6 @@
     display: block;
     text-align: right;
     margin-right: 0;
-  }
-  
-  .nav-tabs >li.active a,
-  .nav-tabs > li a:hover,
-  .nav-tabs > li.active a:focus,
-  .nav-tabs > li.active a:hover {
-    border: none;
-    border-right: 6px solid #8579af;
-    text-decoration: none;
-  }
-  
-  .nav-tabs > li a:hover,
-  .nav-tabs > li.active a:focus,
-  .nav-tabs > li.active a:hover {
-    color: #8579af;
-  }
-  
-  .normal-tabs-content {
-    margin-top: 15px;
   }
 /*jUMBOTRON*/
 .jumbotron{
