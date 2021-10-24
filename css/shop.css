@@ -110,15 +110,20 @@ a {
   }
 }
 /*HeroSpace*/
-.main{
-    background: url(/images/kid1.jpg) no-repeat;
+.jumbotron {
+    background: url(./images/produce3.png) no-repeat;
     background-color: cover;
-    height: 100vh;
+    height: auto;
     background-position: 50%;
     width: 100%;
 
 }
 
+.price {
+  color: #723A65;
+  font-family: open sans condensed;
+
+}
 
 /* footer */
 .footer_nav_container{
