@@ -171,6 +171,15 @@ a {
 .footer_social ul li a:hover{
     color: #fe4c50;
 }
+/* card */
+.card{
+  margin: 5% 0%;
+}
+
+.card-body{
+  margin: 0% 0% 0% 3%;
+  padding: 6% 0%;
+}
 /* ***************************Responsive************************************************ */
 
 
