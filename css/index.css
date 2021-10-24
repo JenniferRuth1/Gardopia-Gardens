@@ -27,6 +27,10 @@ body {
   padding-top: 56px;
 }
 
+h3 {
+  color: #4F093F;
+}
+
 @media (max-width: 991.98px) {
   .offcanvas-collapse {
     position: fixed;
