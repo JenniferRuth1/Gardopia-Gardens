@@ -41,12 +41,6 @@ a {
   padding: 1rem 1.5rem;
   color: black;
 }
-x
-.logo-wrapper img {
-  width: 160px; 
-  margin: .6em 0;
-  display: inline-block;
-}
 .hamburger {
   display: none;
 }
