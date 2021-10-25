@@ -2,6 +2,18 @@
 .nav-color{
     color:white;
 }
+.display-4 {
+    color: #ffffff;
+    font-family: dm sans;
+    font-size: 70px;
+    font-weight: bold;
+}
+.hero {
+    color: #ffffff;
+    font-family: dm sans;
+    font-size: 30px;
+    font-weight: bold;
+}
 .jumbotron {
     color: white;
     background-position: center;
@@ -132,6 +144,19 @@ footer .images-gellary ul li:nth-child(3n) {
     margin-right: 20px;
     border-radius: 15px;
 }
+.card-title {
+    color: #4F093F;
+    font-family: dm sans;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+.card-text {
+    color: #4F093F;
+    font-family: dm sans;
+    font-size: x-large;
+}
 .Container-border{
     border-radius: 15px;
 }
@@ -141,3 +166,42 @@ footer .images-gellary ul li:nth-child(3n) {
 .border-3 {
     border-width:3px !important;
 }
+.btn-3 {
+    background-color: #4F093F;
+    color: white;
+    border-radius: 8px;
+    height: 44px;
+    width: 91.47px;
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+  }
+  .btn-3:hover {
+    background-color: #723A65;
+  }
+  .btn-2 {
+    background-color: #4F093F;
+    color: white;
+    border-radius: 8px;
+    height: 96px;
+    width: 236px;
+    font-size: 36px;
+    float: right;
+  }
+  .btn-2:hover {
+    background-color: #723A65;
+  } 
+  .btn-1 {
+    background-color: #4F093F;
+    color: white;
+    border-radius: 8px;
+    height: 50px;
+    width: 160px;
+    margin-right: 29%;
+    font-size: 24px;
+    float: right;
+  }
+  .btn-1:hover {
+    background-color: #723A65;
+  }
+ 
