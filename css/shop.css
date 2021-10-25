@@ -1,3 +1,7 @@
+.btn:hover {
+  background-color: #723A65;
+}
+
 /*nav*/
   /*NAV*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -106,15 +110,17 @@ a {
   }
 }
 /*HeroSpace*/
-.main{
-    background: url(/images/kid1.jpg) no-repeat;
-    background-color: cover;
-    height: 100vh;
-    background-position: 50%;
-    width: 100%;
-
+.jumbotron {
+  background: url(./images/produce3.png) no-repeat center; 
+  background-size: cover;
+justify-content: center;
 }
 
+.price {
+  color: #723A65;
+  font-family: open sans condensed;
+
+}
 
 /* footer */
 .footer_nav_container{

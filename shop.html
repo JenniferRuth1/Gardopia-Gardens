@@ -6,7 +6,7 @@
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <title>Gardopia Gardens | Shop</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link href="css/shop.css">
+        <link rel="stylesheet" href="./css/shop.css" >
     </head>
     <body>
             <!-- Responsive navbar-->
@@ -21,17 +21,21 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item"><a class="nav-link" href="home2.html">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
                   <li class="nav-item"><a class="nav-link" href="events.html">Events</a></li>
-                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                  <li class="nav-item"><a class="nav-link" href="shop.html">Shop</a></li>
+                  <li class="nav-item"><a class="nav-link" href="">Programs</a></li>
+                  <li class="nav-item"><a class="nav-link" href="">About</a></li>
+                  <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
               </ul>
           </div>
       </div>
   </nav>
+  
   <!-- Header-->
-  <header style="background-image: url(images/produce3.png)" class="bg-dark py-5">
+  <div class="jumbotron">
+  <header style="background-image: url(./images/produce3.png)" class="bg-dark py-5">
     <div class="container px-4 px-lg-5 my-5">
-        <div class="text-center text-white">
+        <div class="text-left text-white">
             <h1 class="display-4 fw-bolder">Fresh Produce</h1>
             <p class="lead fw-normal text-white">Enjoy fresh produce provided by our community gardens! 
             </p>
@@ -39,234 +43,9 @@
         </div>
     </div>
 </header>
+</div>
 <!-- Section-->
 <section class="py-5">
-    <div class="container px-4 px-lg-5 mt-5">
-        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Product image-->
-                    <img class="card-img-top" src="images/tomatoes.jpeg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Tomatoes</h5>
-                            <!-- Product price-->
-                            $0.89 per item
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to Cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
-                    <!-- Product image-->
-                    <img class="card-img-top" src="images/carrots.jpg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Carrots</h5>
-                            <!-- Product reviews-->
-                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                            </div>
-                            <!-- Product price-->
-                            <span class="text-muted text-decoration-line-through">$3.50</span>
-                            $2.50 per Bundle
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Product image-->
-                    <img class="card-img-top" src="images/potatoes.jpeg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Potatoes</h5>
-                            <!-- Product price-->
-                            <span>$0.90 per Item</span>
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Product image-->
-                    <img class="card-img-top" src="images/cauliflower.jpg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Cauliflower</h5>
-                            <!-- Product reviews-->
-                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                            </div>
-                            <!-- Product price-->
-                            $2.50 per item
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Sale badge-->
-                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem"></div>
-                    <!-- Product image-->
-                    <img class="card-img-top" src="images/bellPepper.jpg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Bell Pepper</h5>
-                            <!-- Product price-->
-                            $3.50 per 3 items
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Product image-->
-                    <img class="card-img-top" src="images/apples.jpg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Green Apples</h5>
-                            <!-- Product price-->
-                            $0.65 per item
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Sale badge-->
-                    <!-- Product image-->
-                    <img class="card-img-top" src="images/strawberries.jpg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Strawberries</h5>
-                            <!-- Product reviews-->
-                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                            </div>
-                            <!-- Product price-->
-                            $4.50 per pound
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-                <div class="card h-100">
-                    <!-- Product image-->
-                    <img class="card-img-top" src="images/oranges.jpeg" alt="..." />
-                    <!-- Product details-->
-                    <div class="card-body p-4">
-                        <div class="text-center">
-                            <!-- Product name-->
-                            <h5 class="fw-bolder">Oranges</h5>
-                            <!-- Product reviews-->
-                            <div class="d-flex justify-content-center small text-warning mb-2">
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                                <div class="bi-star-fill"></div>
-                            </div>
-                            <!-- Product price-->
-                            $3.50 per pound
-                        </div>
-                    </div>
-                    <!-- Product actions-->
-                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col mb-5">
-              <div class="card h-100">
-                  <!-- Product image-->
-                  <img class="card-img-top" src="images/cantaloupe.jpg" alt="..." />
-                  <!-- Product details-->
-                  <div class="card-body p-4">
-                      <div class="text-center">
-                          <!-- Product name-->
-                          <h5 class="fw-bolder">Cantaloupe</h5>
-                          <!-- Product reviews-->
-                          <div class="d-flex justify-content-center small text-warning mb-2">
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                              <div class="bi-star-fill"></div>
-                          </div>
-                          <!-- Product price-->
-                          $4.50 per item
-                      </div>
-                  </div>
-                  <!-- Product actions-->
-                  <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                      <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
-                  </div>
-              </div>
-          </div>
-      </div>
-        </div>
-        
-    
-    <div class="container">
-      <button type="button" class="btn btn-success pull-right">Check out</button>
-    </div>
 </section>
 <section>
     <!-- card1-->
@@ -282,7 +61,7 @@
                     
                         <!--Card image-->
                         <div class="view overlay">
-                          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                          <img class="card-img-top" src="./images/carrots.jpg" alt="Card image cap">
                           <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                           </a>
@@ -292,11 +71,12 @@
                         <div class="card-body">
                     
                           <!--Title-->
-                          <h4 class="card-title">1 Card title</h4>
+                          <h4 class="card-title">Carrots</h4>
                           <!--Text-->
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="price">$1.18 / bunch</p>
+                          <p class="card-text">Danvers variety has enhanced sweetness. Excellent roasted or in a salad.</p>
                           <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-                          <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+                          <button type="button" class="btn btn-light-blue btn-md">+ Cart</button>
                     
                         </div>
                     
@@ -310,7 +90,7 @@
                     
                         <!--Card image-->
                         <div class="view overlay">
-                          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+                          <img class="card-img-top" src="./images/tomatoes.jpeg" alt="Card image cap">
                           <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                           </a>
@@ -320,9 +100,10 @@
                         <div class="card-body">
                     
                           <!--Title-->
-                          <h4 class="card-title">2 Card title</h4>
+                          <h4 class="card-title">Tomatoes</h4>
                           <!--Text-->
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="price">$2.25 / lb</p>
+                          <p class="card-text">Beefsteak variety is large and harty fruit. Great for slicing.</p>
                           <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                           <button type="button" class="btn btn-light-blue btn-md">Read more</button>
                     
@@ -338,7 +119,7 @@
                     
                         <!--Card image-->
                         <div class="view overlay">
-                          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+                          <img class="card-img-top" src="./images/potatoes.jpeg" alt="Card image cap">
                           <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                           </a>
@@ -348,9 +129,10 @@
                         <div class="card-body">
                     
                           <!--Title-->
-                          <h4 class="card-title">3 Card title</h4>
+                          <h4 class="card-title">Potatoes</h4>
                           <!--Text-->
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="price">$0.90 / lb</p>
+                          <p class="card-text">Yukon gold are a waxy buttery variety. Great on the grill.</p>
                           <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                           <button type="button" class="btn btn-light-blue btn-md">Read more</button>
                     
@@ -366,7 +148,7 @@
                     
                         <!--Card image-->
                         <div class="view overlay">
-                          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/16.jpg" alt="Card image cap">
+                          <img class="card-img-top" src="./images/cauliflower.jpg" alt="Card image cap">
                           <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                           </a>
@@ -376,9 +158,10 @@
                         <div class="card-body">
                     
                           <!--Title-->
-                          <h4 class="card-title">4 Card title</h4>
+                          <h4 class="card-title">Cauliflower</h4>
                           <!--Text-->
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="price">$2.50/ head</p>
+                          <p class="card-text">Snow queen is excellent in soups, sautes, and mashed.</p>
                           <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                           <button type="button" class="btn btn-light-blue btn-md">Read more</button>
                     
@@ -394,7 +177,7 @@
                     
                         <!--Card image-->
                         <div class="view overlay">
-                          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/14.jpg" alt="Card image cap">
+                          <img class="card-img-top" src="./images/bellPepper.jpg" alt="Card image cap">
                           <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                           </a>
@@ -404,9 +187,10 @@
                         <div class="card-body">
                     
                           <!--Title-->
-                          <h4 class="card-title">5 Card title</h4>
+                          <h4 class="card-title">Bell Pepper</h4>
                           <!--Text-->
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="price">$3.50 / lb</p>
+                          <p class="card-text">California wonder is a sturdy flaverful variety ideal for stuffing.</p>
                           <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                           <button type="button" class="btn btn-light-blue btn-md">Read more</button>
                     
@@ -422,7 +206,7 @@
                     
                         <!--Card image-->
                         <div class="view overlay">
-                          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+                          <img class="card-img-top" src="./images/apples.jpg" alt="Card image cap">
                           <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                           </a>
@@ -432,9 +216,10 @@
                         <div class="card-body">
                     
                           <!--Title-->
-                          <h4 class="card-title">6 Card title</h4>
+                          <h4 class="card-title">Green Apples</h4>
                           <!--Text-->
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="price">$4.25 / lb</p>
+                          <p class="card-text">Granny Smith known for their signature tart sweetness. </p>
                           <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                           <button type="button" class="btn btn-light-blue btn-md">Read more</button>
                     
@@ -450,7 +235,7 @@
                     
                         <!--Card image-->
                         <div class="view overlay">
-                          <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/images/15.jpg" alt="Card image cap">
+                          <img class="card-img-top" src="./images/strawberries.jpg" alt="Card image cap">
                           <a href="#!">
                             <div class="mask rgba-white-slight"></div>
                           </a>
@@ -460,9 +245,10 @@
                         <div class="card-body">
                     
                           <!--Title-->
-                          <h4 class="card-title">7 Card title</h4>
+                          <h4 class="card-title">Strawberries</h4>
                           <!--Text-->
-                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <p class="price">$2.75/ pint</p>
+                          <p class="card-text">Jubalee are known for their large size and sweetness. Great fresh or blended into smoothies.</p>
                           <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
                           <button type="button" class="btn btn-light-blue btn-md">Read more</button>
                     
@@ -470,8 +256,68 @@
                     
                       </div>
                       <!-- Card -->
+                      
                     </div>  
                     
+                    <div class="col-xs-12 col-sm-6 col-md-4">
+                        <!-- Card -->
+                        <div class="card mb-4">
+                      
+                          <!--Card image-->
+                          <div class="view overlay">
+                            <img class="card-img-top" src="./images/oranges.jpeg" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                      
+                          <!--Card content-->
+                          <div class="card-body">
+                      
+                            <!--Title-->
+                            <h4 class="card-title">Oranges</h4>
+                            <!--Text-->
+                            <p class="price">$2.75/ lb</p>
+                            <p class="card-text">Rio Grande Navel is known for low pulp and sweet flavor.</p>
+                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+                      
+                          </div>
+                      
+                        </div>
+                        <!-- Card -->
+                        
+                      </div>  
+                      <div class="col-xs-12 col-sm-6 col-md-4">
+                        <!-- Card -->
+                        <div class="card mb-4">
+                      
+                          <!--Card image-->
+                          <div class="view overlay">
+                            <img class="card-img-top" src="./images/cantaloupe.jpg" alt="Card image cap">
+                            <a href="#!">
+                              <div class="mask rgba-white-slight"></div>
+                            </a>
+                          </div>
+                      
+                          <!--Card content-->
+                          <div class="card-body">
+                      
+                            <!--Title-->
+                            <h4 class="card-title">Cantaloupe</h4>
+                            <!--Text-->
+                            <p class="price">$3.25 / lb</p>
+                            <p class="card-text">Hearts of Gold are sturdy and sweet. Excellent for salads.</p>
+                            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+                            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+                      
+                          </div>
+                      
+                        </div>
+                        <!-- Card -->
+                        
+                      </div>  
+                        
                       
                     </div>
                     <!-- Card deck -->
@@ -479,7 +325,9 @@
                     </div>
         </div>
 </section>
-
+<div class="container">
+      <button type="button" class="btn btn-success pull-right">Check out</button>
+    </div>
     
 <footer class="bg-light text-center text-lg-start text-black">
             <!-- Grid container -->
