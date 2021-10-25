@@ -1,7 +1,4 @@
-.selector-for-some-widget {
-    box-sizing: content-box;
-  }
-  @media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference) {
     :root {
       scroll-behavior: smooth;
     }
@@ -74,10 +71,6 @@ a {
   font-weight: 500;
 }
 
-.btn:hover {
-  background-color: #723A65;
-}
-
 @media only screen and (max-width: 768px) {
   .nav-menu {
       position: fixed;
@@ -91,7 +84,7 @@ a {
       transition: 0.3s;
       box-shadow:
           0 10px 27px rgba(0, 0, 0, 0.05); 
-  }
+}
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
 }
