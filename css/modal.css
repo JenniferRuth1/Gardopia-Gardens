@@ -43,6 +43,7 @@
      color: #4F093F !important;
      font-family: san serif;
   }
+<<<<<<< Updated upstream
   .btn {
     width: 90px;
   }
@@ -55,3 +56,41 @@
     color:red;
   }
  
+=======
+  .subtext {
+    color: #4F093F !important;
+    font-family: san serif;
+    align-content: center;
+  }
+  .btn-1 {
+    background-color: #4F093F;
+    color: white;
+    border-radius: 8px;
+    height: 50px;
+    width: 160px;
+    font-size: 24px;
+    float: left;
+  }
+  .btn-1:hover {
+    background-color: #723A65;
+  }
+  .form-floating {
+      background-color: #F3F3F3;
+  }
+  .btn-4 {
+    background-color: #fffffF;
+    color: #4F093F;
+    border-color: #4F093F;
+    border-radius: 8px;
+    height: 50px;
+    width: 160px;
+    font-size: 24px;
+    float: right;
+  }
+  .btn-4:hover {
+    background-color: #f3f3f3;
+  }
+  .form-floating {
+      background-color: #F3F3F3;
+  }
+>>>>>>> Stashed changes
