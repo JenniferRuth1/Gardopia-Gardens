@@ -41,7 +41,7 @@ justify-content: center;
 }
 
 .price {
-  color: #723A65;
+  color: #4F093F !important;
   font-family: open sans condensed;
 
 }
@@ -85,7 +85,7 @@ justify-content: center;
 .btn-3 {
   background-color: #4F093F;
   color: white;
-  border-radius: 4px;
+  border-radius: 8px;
   height: 44px;
   width: 91.47px;
   font-size: 18px;
@@ -95,4 +95,27 @@ justify-content: center;
 .btn-3:hover {
   background-color: #723A65;
 }
-
+.btn-2 {
+  background-color: #4F093F;
+  color: white;
+  border-radius: 8px;
+  height: 96px;
+  width: 236px;
+  font-size: 36px;
+  float: right;
+}
+.btn-2:hover {
+  background-color: #723A65;
+} 
+.btn-1 {
+  background-color: #4F093F;
+  color: white;
+  border-radius: 8px;
+  height: 50px;
+  width: 160px;
+  font-size: 24px;
+  float: right;
+}
+.btn-1:hover {
+  background-color: #723A65;
+}
