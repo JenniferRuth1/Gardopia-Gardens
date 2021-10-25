@@ -35,5 +35,11 @@
   .header {
      color: #4F093F !important;
      font-family: san serif;
+     align-content: center;
 
+  }
+  .subtext {
+    color: #4F093F !important;
+    font-family: san serif;
+    align-content: center;
   }
