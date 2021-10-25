@@ -82,5 +82,17 @@ justify-content: center;
 @media only screen and (max-width: 479px){
    
 }
-
+.btn-3 {
+  background-color: #4F093F;
+  color: white;
+  border-radius: 4px;
+  height: 44px;
+  width: 91.47px;
+  font-size: 18px;
+  float: right;
+  margin-right: 15px;
+}
+.btn-3:hover {
+  background-color: #723A65;
+}
 
