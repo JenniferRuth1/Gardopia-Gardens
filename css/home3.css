@@ -204,4 +204,10 @@ footer .images-gellary ul li:nth-child(3n) {
   .btn-1:hover {
     background-color: #723A65;
   }
+  @media only screen and (max-width: 580px) {
+      .card.event-shop-card
+      {
+          height:auto;
+      }
+  }
  
