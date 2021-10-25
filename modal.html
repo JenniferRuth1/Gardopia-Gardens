@@ -15,16 +15,22 @@
     integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     </head>
+      <!-- Contents of the Modal -->
     <body>
         <div class="modal modal-signin position-static d-block bg-secondary py-5" tabindex="-1" role="dialog" id="modalSignin">
             <div class="modal-dialog" role="document">
               <div class="modal-content rounded-5 shadow">
                 <div class="modal-header p-5 pb-4 border-bottom-0">
-                  <!-- <h5 class="modal-title">Modal title</h5> -->
-                  <h2 class="header">Register for “Diabetes and Diet”!</h2>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div class="subtext-p">
-                <p class="subtext">Just enter some basic contact information, and we can reserve your spot!</p>
+                  <h2 class="header" ><ins style="border-color: orange;" class="">Register for "Diabetes and Diet" </ins></h2>
+                  <button type="button" style="border: none; height: 45px;" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                    <img style="width:40px;" src="images/CLOSE.png" alt="e" href="./events1.html">
+                  </button>
+                </div class="">
+                <div class="">
+                  <form class="modal-body p-5 pt-0 ">
+                    <p class="subtext">Enter basic contact information, and we can reserve your spot!</p>
+                  </form>
+                </div>
                 <div class="modal-body p-5 pt-0">
                   <form class="">
                     <label for="floatingInput">Enter email Address</label>
@@ -39,8 +45,11 @@
                     <div class="line mt-2 col-md-12"></div> <!--this is for spacing-->
                     <div class="line mt-2 col-md-12"></div> <!--this is for spacing-->
                     <div class="line mt-2 col-md-12"></div> <!--this is for spacing-->
-                    <button class="w-100 mb-2 btn btn-lg rounded-4 btn-primary" type="submit">Sign up</button>
-                  </form>
+                    <div style="text-align: center;" class="">
+                      <button type="button" style="background-color:#723A65;border: #723A65;" class=" w-30 mb-2 btn btn-lg rounded-4 btn-primary">Sign up</button>
+                      <button type="button" style="background-color:white; color:#723A65; border:#723A65; border-color: #723A65;" class=" w- mb-2 btn btn-lg rounded-4 border border-secondary">Cancel</button>
+                    </div>
+                  </form>    
                 </div>
               </div>
             </div>
