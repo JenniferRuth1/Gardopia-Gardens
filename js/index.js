@@ -16,3 +16,9 @@ function closeMenu() {
     hamburger.classList.remove("active");
     navMenu.classList.remove("active");
 }
+//Events-events&volunteer side nav
+$(document).ready(function() {
+    $('.nav-tabs a:first').tab('show');
+ 
+    $('.nav-tabs li.active').trigger('click');
+  });
