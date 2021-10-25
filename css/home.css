@@ -1,7 +1,11 @@
 @charset "utf-8";
-/* 1. Fonts */
+/* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
-/* 2. Body and General Code */
+/*Body and General Code */
+body{
+  margin-right: 20px;
+  margin-left: 20px;
+}
 
 /*NAV*/
 /*TABS*/
@@ -66,4 +70,30 @@ padding-top: 100px;
 }
 .mb-50 {
   margin-bottom: 50px;
+}
+.card{
+  margin-left: 40px;
+  margin-right: 40px; 
+  margin-bottom: 10px;
+}
+
+/*----responsive----*/
+@media (max-width:575px) {
+  .display-4 {
+      font-size: 1.5rem;
+  }
+  .day h5 {
+      background-color: #f8f9fa;
+      padding: 3px 5px 5px;
+      margin: -8px -8px 8px -8px;
+  }
+  .date {
+      padding-left: 4px;
+  }
+}
+
+@media (min-width: 576px) {
+  .day {
+      height: 14.2857vw;
+  }
 }
