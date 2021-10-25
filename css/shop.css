@@ -111,12 +111,9 @@ a {
 }
 /*HeroSpace*/
 .jumbotron {
-    background: url(./images/produce3.png) no-repeat;
-    background-color: cover;
-    height: auto;
-    background-position: 50%;
-    width: 100%;
-
+  background: url(./images/produce3.png) no-repeat center; 
+  background-size: cover;
+justify-content: center;
 }
 
 .price {
