@@ -4,13 +4,11 @@
 }
 .display-4 {
     color: #ffffff;
-    font-family: dm sans;
     font-size: 70px;
     font-weight: bold;
 }
 .hero {
     color: #ffffff;
-    font-family: dm sans;
     font-size: 30px;
     font-weight: bold;
 }
@@ -135,7 +133,7 @@ footer .images-gellary ul li:nth-child(3n) {
 }
 
 .copyright span {
-    color: #0894d1;
+    color: #ffffff;
 }
 .card-body{
     margin-top: 20px;
@@ -146,7 +144,6 @@ footer .images-gellary ul li:nth-child(3n) {
 }
 .card-title {
     color: #4F093F;
-    font-family: dm sans;
     font-size: xx-large;
     font-weight: bold;
     padding-top: 5%;
@@ -154,7 +151,6 @@ footer .images-gellary ul li:nth-child(3n) {
 }
 .card-text {
     color: #4F093F;
-    font-family: dm sans;
     font-size: x-large;
 }
 .Container-border{
