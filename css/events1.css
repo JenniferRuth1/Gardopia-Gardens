@@ -30,7 +30,12 @@
 .events-page-tab-title{
   color: #723A65 !important;
 }
-
+.display-4 {
+  color: #ffffff;
+  font-family: dm sans;
+  font-size: 70px;
+  font-weight: bold;
+}
 @media only screen and (max-width: 998px) {
   #v-pills-tabContent > div > div > div > div > div > div{
     width: 100% !important;
