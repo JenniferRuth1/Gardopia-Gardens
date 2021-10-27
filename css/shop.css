@@ -1,7 +1,22 @@
+:root{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 .btn:hover {
   background-color: #723A65;
 }
-
+.display-4 {
+  color: #ffffff;
+  font-family: dm sans;
+  font-size: 70px;
+  font-weight: bold;
+}
+.hero {
+  color: #ffffff;
+  font-family: dm sans;
+  font-size: 30px;
+  font-weight: bold;
+}
 /*nav*/
   /*NAV*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
@@ -42,7 +57,7 @@ justify-content: center;
 
 .price {
   color: #4F093F !important;
-  font-family: open sans condensed;
+  font-family: Arial, Helvetica, sans-serif condensed;
 
 }
 
@@ -121,3 +136,4 @@ justify-content: center;
 .btn-1:hover {
   background-color: #723A65;
 }
+
