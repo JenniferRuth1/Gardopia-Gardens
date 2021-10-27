@@ -3,11 +3,17 @@
 }
 
 .header{
-  margin-top: 80px;
-  margin-bottom: -30px;
+  margin-top: 180px;
+  margin-bottom: -50px;
+  margin-left: -40%;
   font-weight: bold;
-  font-family: Arial, Helvetica, sans-serif !important
-
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif !important;
+  color: #4F093F !important;
+}
+#logo {
+  padding-left: 58%;
+  padding-bottom: 3%;
 }
 .b-example-divider {
     height: 3rem;
@@ -39,10 +45,7 @@
   .modal-tour .modal-dialog {
     width: 380px;
   }
-  .header {
-     color: #4F093F !important;
-     font-family: san serif;
-  }
+  
   .btn {
     width: 90px;
   }
@@ -60,6 +63,7 @@
     font-family: san serif;
     font-size: large;
     align-content: center;
+    margin-bottom: -40%;
   }
   .btn-1 {
     background-color: #4F093F;
