@@ -136,4 +136,23 @@ justify-content: center;
 .btn-1:hover {
   background-color: #723A65;
 }
-
+/*Animation to the recipe cards*/
+.card.event-shop-card{
+  width: 100%; 
+  height: 300px; 
+  overflow: hidden;
+  margin-bottom: 100px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.06), 0 3px 6px rgba(0,0,0,0.03);
+  background:#F5F5F5;
+}
+.card-2{
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+cursor: pointer;
+}
+.card-2:hover{
+  transform: scale(1.05);
+box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
