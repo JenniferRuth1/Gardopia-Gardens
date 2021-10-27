@@ -13,6 +13,10 @@
   margin: 5px 0 0;
 }
 
+.nav-link {
+  color:#7C7C7D !important;
+}
+
 /*Tabs*/
 #events-page .nav-pills .nav-link{
   color: #9e9e9e !important;
