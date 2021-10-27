@@ -207,10 +207,4 @@ footer .images-gellary ul li:nth-child(3n) {
       }
   }
 
-  /*--To initiate Animtation--*/
-  AOS.init(
-  {
-    offset: 400,
-    duration: 1000
-  });
  
