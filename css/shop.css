@@ -85,9 +85,12 @@ justify-content: center;
 
 }
 
-@media only screen and (max-width: 767px){
-
-    
+@media only screen and (max-width: 770px) {
+  .card .col-sm-5{
+    margin-left: 0px !important;
+    flex: 0 0 100% !important;
+    max-width: none !important;
+  }
 }
 @media only screen and (max-width: 575px){
  
@@ -97,6 +100,7 @@ justify-content: center;
 @media only screen and (max-width: 479px){
    
 }
+
 .btn-3 {
   background-color: #4F093F;
   color: white;
