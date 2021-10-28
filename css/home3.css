@@ -128,12 +128,12 @@ footer .images-gellary ul li:nth-child(3n) {
 }
 .copyright {
     padding: 15px 0;
-    background: #747272ad;
+    background: #bdbdbdad;
     font-size: 15px;
 }
 
 .copyright span {
-    color: #ffffff;
+    color: #303030;
 }
 .card-body{
     margin-top: 20px;
@@ -143,14 +143,14 @@ footer .images-gellary ul li:nth-child(3n) {
     border-radius: 15px;
 }
 .card-title {
-    color: #4F093F;
+    color: #2A4717;
     font-size: xx-large;
     font-weight: bold;
     padding-top: 5%;
     padding-bottom: 2%;
 }
 .card-text {
-    color: #4F093F;
+    color: #2A4717;
     font-size: x-large;
 }
 .Container-border{
