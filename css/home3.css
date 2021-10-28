@@ -34,8 +34,7 @@
 .middle-section{
     background-color: #fff;
 }
-@media (min-width:768px) {
-}
+
 /**/
 .card.event-shop-card{
     width: 100%; 
@@ -200,6 +199,7 @@ footer .images-gellary ul li:nth-child(3n) {
   .btn-1:hover {
     background-color: #723A65;
   }
+
   @media only screen and (max-width: 580px) {
       .card.event-shop-card
       {
@@ -225,5 +225,6 @@ footer .images-gellary ul li:nth-child(3n) {
       padding-bottom: 15px;
     }
 }
-
+@media (min-width:768px) {
+}
  
