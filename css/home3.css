@@ -17,7 +17,6 @@ button {
     float: right;
     margin-right: 15px;
   }
-
 .nav-color{
     color:white;
 }
@@ -226,6 +225,18 @@ footer .images-gellary ul li:nth-child(3n) {
       }
       .footerButton {
         margin-right: 40%;
+      }
+      .display-4 {
+        font-size: xx-large;
+      }
+      .hero {
+          font-size: x-large;
+      }
+      .btn-2 {
+        height: 44px;
+    width: 91.47px;
+        font-size: 18px;
+        float: right;
       }
   }
   @media only screen and (max-width: 992px) {
