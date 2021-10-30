@@ -162,12 +162,6 @@ footer {
       .footerButton {
         margin-right: 40%;
       }
-      .btn-2 {
-        height: 44px;
-    width: 91.47px;
-        font-size: 18px;
-        float: right;
-      }
   }
   @media only screen and (max-width: 992px) {
     .card.event-shop-card
