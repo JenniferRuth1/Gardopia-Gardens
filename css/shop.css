@@ -2,6 +2,16 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+.btn-2 {
+  background-color: #4F093F;
+  color: white;
+  border-radius: 8px;
+  height: 96px;
+  width: 236px;
+  font-size: 36px;
+  float: right;
+}
+
 .footerButton {
   background-color: #4F093F;
   color: white;
@@ -122,7 +132,9 @@ width: 91.47px;
 @media only screen and (max-width: 479px){
    
 }
-
+.btn-1 {
+  margin-right: 33%;
+}
 .btn-3 {
   background-color: #4F093F;
   color: white;
@@ -137,12 +149,9 @@ width: 91.47px;
   background-color: #723A65;
 }
 .btn-2 {
-  background-color: #4F093F;
-  color: white;
-  border-radius: 8px;
-  height: 96px;
-  width: 236px;
-  font-size: 36px;
+  height: 44px;
+width: 91.47px;
+  font-size: 18px;
   float: right;
 }
 .btn-2:hover {
