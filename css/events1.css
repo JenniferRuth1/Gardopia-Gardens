@@ -42,8 +42,12 @@
 }
 .display-4 {
   color: #ffffff;
-  font-family: dm sans;
   font-size: 70px;
+  font-weight: bold;
+}
+.hero {
+  color: #ffffff;
+  font-size: 30px;
   font-weight: bold;
 }
 @media only screen and (max-width: 998px) {
