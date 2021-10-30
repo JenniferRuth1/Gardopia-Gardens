@@ -149,9 +149,12 @@ width: 91.47px;
   background-color: #723A65;
 }
 .btn-2 {
-  height: 44px;
-width: 91.47px;
-  font-size: 18px;
+  background-color: #4F093F;
+  color: white;
+  border-radius: 8px;
+  height: 68px;
+  width: 144px;
+  font-size: 24px;
   float: right;
 }
 .btn-2:hover {
